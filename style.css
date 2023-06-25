@@ -85,9 +85,7 @@ li a {
   margin-left: 3rem;
 }
 
-.shape_container {
-  /* position: absolute; */
-}
+
 
 .clone {
   margin: 0 auto;
@@ -152,10 +150,6 @@ li a {
   text-align: center;
 }
 
-.circle {
-  /* position: absolute; */
-  /* top: -250px; */
-}
 
 .ratings {
   display: flex;
@@ -300,9 +294,31 @@ li a {
 
 .pricing {
   margin: 0 auto;
-  width: 40%;
+  width: 50%;
   text-align: center;
   padding-bottom: 6rem;
+}
+
+.btn {
+  background-color: #0065FE;
+  border: none;
+  margin: 4px 2px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: white;
+  border: 1px solid #0065FE;
+  margin: 4px 2px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  text-align: center;
+  color: #0065FE;
 }
 
 .url {
