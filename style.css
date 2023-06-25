@@ -22,7 +22,7 @@ h1 {
 }
 
 span {
-  color: blue;
+  color: #3284FF;
 }
 
 .container {
@@ -257,8 +257,7 @@ li a {
 
 .cards {
   display: flex;
-  /* width: 500px; */
-  padding-bottom: 10rem;
+  padding-bottom: 4rem;
 }
 
 .card__heading {
@@ -295,9 +294,73 @@ li a {
 .prof_colour {
   background: #1E3448;
   padding: 0 2.5rem;
-  /* margin: 50px; */
-;
   color: white;
   border-radius: 10px;
-  /* line-height: 3; */
+}
+
+.pricing {
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.url {
+  background-color: #1E3448;
+  padding: 5rem 0;
+}
+
+.form {
+  width: 476px;
+  height: 355px;
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.text_container {
+  width: 397px;
+  height: 127px;
+  padding: 20px;
+
+}
+
+.url_input {
+  padding: 8px 12px;
+  width: 392px;
+  height: 55px;
+  margin: 25px 40px;
+  border-radius: 10px;
+  color: #3284FF;
+  border: 1px solid #3284FF;
+}
+
+input::placeholder {
+  color: #3284FF;
+  font-size: 0.75rem;
+}
+
+.select {
+  width: 392px;
+  height: 34px;
+}
+
+select::option {
+  color: #3284FF;
+}
+
+.domain_input {
+  padding: 8px 12px;
+  height: 34px;
+  margin: 25px 40px;
+  border: 1px solid #3284FF;
+  border-radius: 10px;
+}
+
+.alias_input {
+  padding: 8px 12px;
+  height: 34px;
+  margin: 25px -30px;
+  border: 1px solid #3284FF;
+  border-radius: 10px;
 }
